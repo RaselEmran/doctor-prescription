@@ -1,0 +1,152 @@
+.card-section{
+    margin-top: 50px;
+}
+
+.bate-time{
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: #00AEE5;
+}
+
+.blog-text{
+   
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.blog-head{
+    background:rgba(0, 174, 229, 0.75) url(public/images/slide-2.jpg);
+    padding: 100px 0;
+    background-size: 100%;
+    color: #fff;
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px){
+    .blog-head{
+        padding:45px 10px;
+    }
+}
+
+.span8 .col-md-2 .post-widget ul > li a {
+     color: #141414; 
+    letter-spacing: .3px;
+    font-weight: 600;
+}
+
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: bold;
+    /* color: #333; */
+    word-break: break-all;
+    word-wrap: break-word;
+    /* background-color: #f5f5f5; */
+/*    border: 1px solid #ccc;*/
+    border-radius: 4px;
+}
+
+.card-section h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.thumbnail{
+    overflow: hidden;
+}
+
+
+ .thumbnail img{
+    transition: all 0.3s;
+}
+
+ .thumbnail img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+    
+}
+
+
+.blog-text p{
+    padding: 20px;
+    transition: all 0.5s ease-out;
+    
+    
+}
+
+.blog-text p:hover {
+    box-shadow: 0 0 10px #7c7c7c;
+    transition: all 0.5s ease-out;
+    border-radius: 12px;
+}
+
+
+.social-icon {
+    text-align: right;
+}
+
+.social-icon ul {
+    margin: 0;
+    padding: 0;
+    color: #656769;
+}
+
+.social-icon ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .blog-page .row{
+    padding: 0 15px;
+}
+    
+    .social-icon {
+    text-align: left;
+}
+    
+    
+}
+
+
+.input-group-addon i{
+    width: 20px ;
+    
+}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+    padding: auto 40px !important;
+}
+
+.navbar-nav li {
+    background-color: #00AEE5;
+    margin: 6px;
+}
+
+.navbar-nav > li > a{
+    padding: 10px 20px;
+}
+
+
+.navbar-nav > li {
+    width: 130px;
+    text-align: center;
+}
+
+.navbar-nav > li{
+    
+}
+.active
+{
+    background: red;
+    color: #fff;
+}
